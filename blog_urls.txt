@@ -1,0 +1,31 @@
+# 신림동 철학자 AI - 블로그 크롤링 URL 목록
+# 한 줄에 하나의 URL을 입력하세요
+# '#'으로 시작하는 줄은 주석으로 처리됩니다
+
+# === 철학 관련 블로그 (예시) ===
+# https://example-philosophy-blog.com/posts/schopenhauer-1
+# https://example-philosophy-blog.com/posts/pessimism-modern
+
+# === 염세주의 에세이 (예시) ===
+# https://example-essay-blog.com/life-is-suffering
+# https://example-essay-blog.com/nihilism-today
+
+# === 네이버 블로그 (예시) ===
+# https://blog.naver.com/example/philosophy-post-1
+# https://blog.naver.com/example/life-meaning
+
+# === 티스토리 (예시) ===
+# https://example.tistory.com/123
+# https://example.tistory.com/456
+
+# =============================================
+# 사용법:
+# 1. 위의 예시 URL들을 실제 크롤링할 URL로 교체하세요
+# 2. '#'을 제거하여 URL을 활성화하세요
+# 3. python data_scraper.py 실행
+# =============================================
+
+# 주의사항:
+# - 저작권에 주의하세요
+# - 너무 많은 요청은 서버에 부담을 줄 수 있습니다
+# - robots.txt를 확인하세요
