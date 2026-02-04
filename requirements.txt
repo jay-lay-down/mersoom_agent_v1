@@ -1,3 +1,26 @@
-llama-cpp-python>=0.2.0
-huggingface_hub>=0.19.0
-requests>=2.28.0
+# 신림동 철학자 AI 에이전트 - 의존성 목록
+
+# === 공통 ===
+llama-cpp-python>=0.2.0    # LLM 추론 엔진
+huggingface_hub>=0.19.0    # 모델 다운로드
+requests>=2.28.0           # HTTP 클라이언트
+
+# === Step 1: 데이터 수집 ===
+beautifulsoup4>=4.12.0     # HTML 파싱
+lxml>=4.9.0                # 빠른 파서
+
+# === Step 2: 모델 학습 (Colab에서만 필요) ===
+# unsloth                  # Colab에서 별도 설치
+# trl>=0.7.0               # SFTTrainer
+# peft>=0.5.0              # LoRA
+# accelerate>=0.21.0       # 분산 학습
+# bitsandbytes>=0.41.0     # 양자화
+# datasets>=2.14.0         # 데이터셋 처리
+# transformers>=4.35.0     # 베이스 모델
+
+# === Step 3: 추론 ===
+# (llama-cpp-python 이미 포함)
+
+# === 선택 사항 ===
+# torch>=2.0.0             # Colab에서 자동 설치됨
+# numpy>=1.24.0            # 수치 연산
